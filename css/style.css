@@ -8,7 +8,7 @@ body {
 ul {
     background-color: #042117;
     overflow: hidden;
-    color: white;
+    color: #FDF9EF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,14 +17,14 @@ ul {
     list-style-type: none;
 }
 ul a {
-  color: #f2f2f2;
+  color: #FDF9EF;
   text-align: center;
   padding: 0px 50px;
   text-decoration: none;
   font-size: 24px;
 }
 li {
-  color: white;
+  color: #FDF9EF;
   font-family: "Red Hat Display";
 }
 li a:hover {
@@ -39,7 +39,7 @@ li a:hover {
   margin-right: auto;
   width: 100%;
 }
-.my-work {
+.my-skills {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,8 +47,13 @@ li a:hover {
     padding-bottom: 150px;
 }
 
+.my-work {
+    height: 367px; 
+    width: 100%; 
+    background-color: #FDF9EF;
+}
 .whiteblock {
-  background-color: white;
+  background-color: #FDF9EF;
   width: 100%;
   height: 367px;
 }
@@ -68,6 +73,49 @@ p {
   font-family: "Red Hat Display"; 
   font-size: 18px;
 }
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    height: 367px; 
+    width: 100%; 
+    background-color: #FDF9EF;
+}
+.firstArch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #A2CDBE;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    width: 471px;
+    height: 400px;
+    margin: 0px 5px;
+  }
+.secondArch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #A2CDBE;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    width: 471px;
+    height: 400px;
+    margin: 0px 5px;
+  }
+.thirdArch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #A2CDBE;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    width: 471px;
+    height: 400px;
+    margin: 0px 5px;
+  }
 footer {
   display: flex;
   justify-content: space-around;
@@ -83,7 +131,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-color: white;
+  background-color: #FDF9EF;
   border-top-left-radius: 190px;
   border-top-right-radius: 190px;
   width: 266px;
